@@ -1,2 +1,3 @@
 com.diraj.coroutines.getting_started.GettingStarted no
-com.diraj.coroutines.suspending_functions.SuspendingFunctions yes
+com.diraj.coroutines.suspending_functions.SuspendingFunctions no
+com.diraj.coroutines.async_await.AsyncAwait yes
