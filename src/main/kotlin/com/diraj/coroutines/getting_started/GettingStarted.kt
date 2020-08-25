@@ -1,17 +1,13 @@
 package com.diraj.coroutines.getting_started
 
 import com.diraj.coroutines.IChapterExecutor
-import com.diraj.coroutines.utils.Logger
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import java.util.logging.Level
 
 class GettingStarted: IChapterExecutor {
 
-    private val logger = Logger.getLogger(this.javaClass
-    )
     override fun startChapterExecution() {
         launchCoroutines()
 
@@ -23,7 +19,7 @@ class GettingStarted: IChapterExecutor {
     }
 
     private fun launchCoroutines() {
-        logger.debug { "launchCoroutines" }
+        println("launchCoroutines")
         (1..10000).forEach {
             /*
             CoroutineStart modes:
@@ -45,8 +41,7 @@ class GettingStarted: IChapterExecutor {
     }
 
     private fun dependentJobs() {
-        java.util.logging.Logger.getLogger("lala").log(Level.INFO, "dependentJobs")
-        logger.debug { "dependentJobs" }
+        println("dependentJobs")
         val job1 = GlobalScope.launch(start = CoroutineStart.LAZY) {
             delay(200)
             println("Pong")
