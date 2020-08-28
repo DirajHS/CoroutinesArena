@@ -1,4 +1,5 @@
 com.diraj.coroutines.getting_started.GettingStarted no
 com.diraj.coroutines.suspending_functions.SuspendingFunctions no
 com.diraj.coroutines.async_await.AsyncAwait no
-com.diraj.coroutines.coroutine_context.CoroutineContext yes
+com.diraj.coroutines.coroutine_context.CoroutineContext no
+com.diraj.coroutines.context_switch.ContextSwitch yes
