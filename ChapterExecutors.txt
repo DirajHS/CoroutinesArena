@@ -3,4 +3,6 @@ com.diraj.coroutines.suspending_functions.SuspendingFunctions no
 com.diraj.coroutines.async_await.AsyncAwait no
 com.diraj.coroutines.coroutine_context.CoroutineContext no
 com.diraj.coroutines.context_switch.ContextSwitch no
-com.diraj.coroutines.exception_handling.ExceptionHandling yes
+com.diraj.coroutines.exception_handling.ExceptionHandling no
+com.diraj.coroutines.cancellation.ManageCancellation no
+com.diraj.coroutines.sequences.SequencesExamples yes
