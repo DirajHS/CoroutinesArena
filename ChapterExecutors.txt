@@ -6,4 +6,6 @@ com.diraj.coroutines.context_switch.ContextSwitch no
 com.diraj.coroutines.exception_handling.ExceptionHandling no
 com.diraj.coroutines.cancellation.ManageCancellation no
 com.diraj.coroutines.sequences.SequencesExamples no
-com.diraj.coroutines.channels.ChannelsExecutor yes
+com.diraj.coroutines.channels.ChannelsExecutor no
+com.diraj.coroutines.broadcast_channels.BroadcastChannelsExecutor no
+com.diraj.coroutines.producers_and_actors.ProducersActorsExecutor yes
