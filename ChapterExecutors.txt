@@ -8,4 +8,5 @@ com.diraj.coroutines.cancellation.ManageCancellation no
 com.diraj.coroutines.sequences.SequencesExamples no
 com.diraj.coroutines.channels.ChannelsExecutor no
 com.diraj.coroutines.broadcast_channels.BroadcastChannelsExecutor no
-com.diraj.coroutines.producers_and_actors.ProducersActorsExecutor yes
+com.diraj.coroutines.producers_and_actors.ProducersActorsExecutor no
+com.diraj.coroutines.flow.FlowExecutor yes
